@@ -11,8 +11,8 @@ body {
     height: 470px;
     border-radius: 20px;
     padding: 20px 15px;
-    background: rgb(72, 72, 72);
-    color: #fff;
+    background: hsl(0, 0%, 28%);
+    color: hsl(0, 0%, 90%);
 }
 
 .search-engine {
