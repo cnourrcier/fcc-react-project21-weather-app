@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    margin: 50px auto 0px;
+    width: 90%;
+    max-width: 700px;
+    height: 470px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background: rgb(72, 72, 72);
+    color: #fff;
+}
+
+.search-engine {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.search-engine input {
+    width: 70%;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2px 15px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    color: #262626;
+}
+
+.search-engine button {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 13px 15px;
+}
+
+.city-name {
+    margin-bottom: 10px;
+}
+
+.loading {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.temperature {
+    font-size: 64px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.temp-format-button {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 13px 15px;
+}
+
+.description {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.weather-info-column {
+    display: flex;
+    align-items: center;
+    line-height: 1px;
+    margin: 15px 20px;
+}
